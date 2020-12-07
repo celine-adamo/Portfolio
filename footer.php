@@ -26,23 +26,70 @@
 </section>
 <br>
 
-<footer class="container">
-  <div class="row-flex col-lg-6 offset-6">
-    <form>
-    <h2>Contact</h2>
-    <br>
-      <div class="form-group">
-        <label for="exampleFormControlInput1">Adresse mail :</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+
+<section class="container col-5">
+  <div  class="mb-4">
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact</h2>
+    <p class="text-center w-responsive mx-auto mb-5">Des questions? Merci de me contacter via le formulaire suivant :</p>
+    <div class="row">
+      <div class="col-md-8 mb-md-0 mb-5">
+        <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="md-form mb-0">
+                <input type="text" id="name" name="name" class="form-control">
+                <label for="name" class="">Nom</label>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="md-form mb-0">
+                <input type="text" id="email" name="email" class="form-control">
+                <label for="email" class="">Email</label>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="md-form mb-0">
+                <input type="text" id="subject" name="subject" class="form-control">
+                <label for="subject" class="">Sujet</label>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="md-form">
+                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                <label for="message">Message</label>
+              </div>
+            </div>
+          </div>
+        </form>
+        <div class="text-center text-md-left">
+          <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+        </div>
+        <div class="status"></div>
       </div>
-      <div class="form-group">
-        <label for="exampleFormControlTextarea1">Commentaire :</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        <br>
-        <button type="button" class="btn btn-dark">Soumettre</button>
+      <div class="col-md-3 text-center">
+        <ul class="list-unstyled mb-0">
+          <li><i class="fas fa-map-marker-alt fa-2x"></i>
+            <p>Belfort, 90000 France</p>
+          </li>
+          <li><i class="fas fa-phone mt-4 fa-2x"></i>
+            <p>+ 06 67 42 47 66</p>
+          </li>
+          <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+            <p>celineadamo.ca@gmail.com</p>
+          </li>
+        </ul>
       </div>
+    </div>
   </div>
-  </form>
+</section>
+
+
+<footer>
+
 </footer>
 
 
