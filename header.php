@@ -10,14 +10,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <style>
         body {
-            background-color: #FFF3EE;
+            background-color: #F2F2F2; 
         }
     </style>
     <script src="https://kit.fontawesome.com/e80851bb12.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-
     <header>
 
     </header>
@@ -44,7 +43,7 @@
     </nav>
 
     <div>
-        <img src="../assets/images/back2.png" class="vw-100" alt="fond">
+        <img src="../assets/images/back4.png" class="vw-100" alt="fond">
     </div>
 
     <section class="container">
@@ -53,7 +52,7 @@
                 <img src="../assets/images/celine3.png" alt="celine">
             </div>
             <div class="col-md-5 offset-md-1">
-                <h1 style="text-align:justify;">Lorem, ipsum dolor sit amet consectetur </h1>
+                <h1 style="text-align:justify;">Bienvenue.</h1>
                 <p style="text-align:justify;">
                     <br>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis corporis molestias doloribus animi
@@ -66,8 +65,25 @@
             </div>
         </div>
     </section>
+    <br>
 
-    <section>
-
-
+    <section class="container">
+        <div class="flex-row-reverse row">
+            <div class="col-lg-8 offset-12">
+                <img src="../assets/images/celine55.png" alt="celine">
+            </div>
+            <div class="col-md-3 offset-md-1">
+                <h2 style="text-align:justify" class="title">Projets.</h2>
+                <p style="text-align:justify;">
+                    <br>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis corporis molestias doloribus animi
+                    quibusdam? Odio asperiores dolorem inventore labore enim ducimus earum, error nesciunt odit
+                    reiciendis officia autem maxime sit!
+                </p>
+            </div>
+        </div>
     </section>
+
+
+
+    <?php include_once 'footer.php' ?>
